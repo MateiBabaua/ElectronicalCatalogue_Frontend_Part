@@ -36,6 +36,7 @@ body {
     padding: 70px 30px 44px;
     background: #fffffF;
     text-align: center;
+    border-radius: 20px;
 }
 
 @media (width < 496px) {
