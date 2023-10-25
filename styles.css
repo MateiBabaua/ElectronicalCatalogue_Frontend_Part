@@ -125,6 +125,7 @@ footer {
     align-items: center;
     margin-top: 30rem;
     color: #555555; 
+    position: fixed;
 }
 
 footer.bottom {
