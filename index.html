@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Electronical Catalogue</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+
+<body>
+        
+    
+
+
+    <article class="login">
+        <h2> Clasa <a> I A </a></h2>
+        <h3> Scoala Gimnaziala Nr.1, Sabareni, Giurgiu </h3>
+        <form class="form" id="loginForm">
+                <input type="text" name="username" id="username" placeholder="E-mail adress"/>
+                <input type="password" id="password" placeholder="Enter your password"/>
+                <button type="submit"> LOGIN </button>
+                <script language="javascript">
+
+    document.getElementById('loginForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+   
+    var username = document.getElementById('username').value;
+    var password = document.getElementById('password').value;
+   
+    if (username === 'a' && password === 'a') {
+        window.location.href = 'assets/DemoPage/demo.html';
+    } else {
+        alert('Invalid username or password. Please try again.');
+    }
+}
+)
+     
+    </script>
+        </form>
+    </article>
+
+
+
+    
+</body>
+
+<footer class="bottom">
+    <div class="legal">
+        <span> &copy; 2023 <strong>Matei Babaua</strong>. All rights reserved.</span>
+    </div>
+</footer>
+
+</html>

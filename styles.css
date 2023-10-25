@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+@keyframes rotate {
+    100% {
+        background-position: 25% 50%;
+    }
+}
+
+body {
+    display: grid;
+    place-items: center;
+    margin: 0;
+    height: 100vh;
+    padding: 0 24px;
+    background-image: url(./assets/images/primary-school.png);
+    background-size: cover;
+    font-family: "Poppins";
+    color: #555555;
+    animation: rotate 5s infinite alternate linear;
+    font-family: 'Raleway', sans-serif;
+}
+
+@media (width >= 500px) {
+    body { padding: 0; }
+}
+
+.login {
+    position: fixed;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    width: 90%;
+    padding: 70px 30px 44px;
+    background: #fffffF;
+    text-align: center;
+}
+
+@media (width < 496px) {
+    .login {
+        width: 90%;
+    }
+}
+
+@media (width >= 496px) {
+    .login {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+}
+
+@media (width >= 600px) {
+    .login {
+        width: 500px;
+    }
+    
+    @keyframes rotate {
+        60% {
+            background-position: 25% 50%;
+        }}
+}
+
+.login > h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0 0 20px;
+}
+
+.login > h3 {
+    color: rgb(0, 0 , 0, 38%);
+    margin: 0 0 6px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.login-form {
+    display: grid;
+    gap: 20px;
+    place-items: center;
+    width: 100%;
+    margin: 0;
+}
+
+.form > :is(input, button) {
+    height: 56px;
+    width: 100%;
+    outline: none;
+    padding: 0;
+    border-radius: 10px;
+    font-family: inherit;
+}
+
+.form > input {
+    background: #eeeeee;
+    border: 0;
+    padding: 10px;
+    display: flex;
+    margin: 2vh auto;
+    width: 90%;
+}
+
+.form > button {
+    cursor: pointer;
+    height: 56px;
+    width: 90%;
+    background: #685aff;
+    color: #f9f9f9;
+    border: 0;
+    letter-spacing: 2px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.login > h2 > a {
+    color: #685aff;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    margin-top: 30rem;
+    color: #555555; 
+}
+
+footer.bottom {
+    padding: 20px 0;
+    justify-content: space-between;
+}
+
+footer.legal {
+    font-size: 12px;
+}
+
+footer.legal > span {
+    margin-right: 10px;
+}
