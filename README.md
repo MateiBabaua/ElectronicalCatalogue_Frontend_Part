@@ -8,8 +8,9 @@ This repository contains a demo showcasing the front-end part of the application
 
 To log in, follow these steps:
 
-1. Enter the username 'UserDemo' and the password 'UserPass'. 🔐
-2. You'll then be granted access to view the template for each child page. 👀
+1. Enter on this url: https://mateibabaua.github.io/ElectronicalCatalogue_Frontend_Part/
+2. Enter the username 'UserDemo' and the password 'UserPass'. 🔐
+3. You'll then be granted access to view the template for each child page. 👀
 
 ## Notes 📝
 
